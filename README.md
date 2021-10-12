@@ -1,5 +1,5 @@
 # xbps-update-polybar
-View how many updates are available on Void Linux's XPBS, straight from Polybar.
+View how many updates are available on Void Linux's XPBS package manager, straight from Polybar.
 
 ### Installation
 1. Download the files as a ZIP or clone into a temporary directory.
