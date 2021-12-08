@@ -16,7 +16,7 @@ interval = 120
 ```
 
 ### Left click to install updates
-It's entirely possible to add a quick shortcut to install the available update(s) directly from Polybar. I use the alacritty terminal, and for this terminal it can easily be achieved by adding an additional line under the `[module/xbps-updates] section as follows:
+It's entirely possible to add a quick shortcut to install the available update(s) directly from Polybar. I use the alacritty terminal, and for this terminal it can easily be achieved by adding an additional line under the `[module/xbps-updates]` section as follows:
 
 ```
 click-left = alacritty -e sudo xbps-install -Su
