@@ -14,3 +14,12 @@ type = custom/script
 exec = ~/.config/polybar/xbps-updates.sh
 interval = 120
 ```
+
+### Left click to install updates
+It's entirely possible to add a quick shortcut to install the available update(s) directly from Polybar. I use the alacritty terminal, and for this terminal it can easily be achieved by adding an additional line under the `[module/xbps-updates] section as follows:
+
+```
+click-left = alacritty -e sudo xbps-install -Su
+```
+
+Please refer to the manual or wiki of your terminal emulator on the exact syntax required to implement this.
